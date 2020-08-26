@@ -16,7 +16,31 @@ let JogadoresService = JogadoresService_1 = class JogadoresService {
         this.jogadores = [];
     }
     async criarAtualizarJogador(criarJogadorDto) {
-        await this.criar(criarJogadorDto);
+        const { email } = criarJogadorDto;
+        const jogadorEncontrado = await this.jogadores.find(jogador => jogador.email === email);
+        if (jogadorEncontrado) {
+            await this.atualizar(jogadorEncontrado, criarJogadorDto);
+        }
+        else {
+            await this.criar(criarJogadorDto);
+        }
+    }
+    async consultarJogadorPeloEmail(email) {
+        const jogadorEncontrado = await this.jogadores.find(jogador => jogador.email === email);
+        if (!jogadorEncontrado) {
+            throw new common_1.NotFoundException(`Jogador ${email} não encontrado!`);
+        }
+        return jogadorEncontrado;
+    }
+    async consultarTodosJogadores() {
+        return await this.jogadores;
+    }
+    async deletarJogador(email) {
+        const jogadorEncontrado = await this.jogadores.find(jogador => jogador.email === email);
+        if (!jogadorEncontrado) {
+            throw new common_1.NotFoundException(`Jogador ${email} não encontrado!`);
+        }
+        this.jogadores = this.jogadores.filter(jogador => jogador.email !== jogadorEncontrado.email);
     }
     criar(criarJogadorDto) {
         const { nome, email, telefoneCelular } = criarJogadorDto;
@@ -31,6 +55,10 @@ let JogadoresService = JogadoresService_1 = class JogadoresService {
         };
         this.logger.log(`criarJogadorDto: ${JSON.stringify(jogador)}`);
         this.jogadores.push(jogador);
+    }
+    atualizar(jogadorEncontrado, criarJogadorDto) {
+        const { nome } = criarJogadorDto;
+        jogadorEncontrado.nome = nome;
     }
 };
 JogadoresService = JogadoresService_1 = __decorate([
