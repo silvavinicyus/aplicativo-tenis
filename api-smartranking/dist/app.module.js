@@ -9,11 +9,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
 const jogadores_module_1 = require("./jogadores/jogadores.module");
+const mongoose_1 = require("@nestjs/mongoose");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
-        imports: [jogadores_module_1.JogadoresModule],
+        imports: [
+            mongoose_1.MongooseModule.forRoot('mongodb+srv://Vinicyus:B9O3TKfXqfBDQru7@cluster0.5fgj6.mongodb.net/smartranking?retryWrites=true&w=majority', { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false }),
+            jogadores_module_1.JogadoresModule
+        ],
         controllers: [],
         providers: [],
     })

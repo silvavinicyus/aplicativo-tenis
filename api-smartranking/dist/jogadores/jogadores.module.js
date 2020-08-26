@@ -10,10 +10,13 @@ exports.JogadoresModule = void 0;
 const common_1 = require("@nestjs/common");
 const jogadores_controller_1 = require("./jogadores.controller");
 const jogadores_service_1 = require("./jogadores.service");
+const mongoose_1 = require("@nestjs/mongoose");
+const jogador_schema_1 = require("./interfaces/jogador.schema");
 let JogadoresModule = class JogadoresModule {
 };
 JogadoresModule = __decorate([
     common_1.Module({
+        imports: [mongoose_1.MongooseModule.forFeature([{ name: 'Jogador', schema: jogador_schema_1.JogadorSchema }])],
         controllers: [jogadores_controller_1.JogadoresController],
         providers: [jogadores_service_1.JogadoresService]
     })

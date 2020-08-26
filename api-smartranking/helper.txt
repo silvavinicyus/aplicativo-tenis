@@ -1,0 +1,2 @@
+string conexão: B9O3TKfXqfBDQru7
+string 2: mongodb+srv://Vinicyus:B9O3TKfXqfBDQru7@cluster0.5fgj6.mongodb.net/<dbname>?retryWrites=true&w=majority
