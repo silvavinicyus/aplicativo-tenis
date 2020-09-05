@@ -5,10 +5,9 @@ export declare class JogadoresService {
     private readonly JogadorModel;
     private logger;
     constructor(JogadorModel: Model<Jogador>);
-    criarAtualizarJogador(criarJogadorDto: CriarJogadorDto): Promise<void>;
-    consultarJogadorPeloEmail(email: string): Promise<Jogador>;
+    criarJogador(criarJogadorDto: CriarJogadorDto): Promise<Jogador>;
+    atualizarJogador(_id: string, criarJogadorDto: CriarJogadorDto): Promise<void>;
+    consultarJogadorPeloId(_id: string): Promise<Jogador>;
     consultarTodosJogadores(): Promise<Jogador[]>;
-    deletarJogador(email: string): Promise<any>;
-    private criar;
-    private atualizar;
+    deletarJogador(_id: string): Promise<any>;
 }
