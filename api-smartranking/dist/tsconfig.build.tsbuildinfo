@@ -1776,6 +1776,11 @@
         "signature": "8bdefb8cfcfd512f5066b7ad534f4d70ebab7e10148e960e3398aa733db489af",
         "affectsGlobalScope": false
       },
+      "../src/jogadores/dto/atualizar-jogador.dto.ts": {
+        "version": "f1bb6b3b2ef0f9dc9f9e59e372747bb0291cd311ee1afbf30cc67b120c3d2b1d",
+        "signature": "3c2eaa0f16cafd2db7e0743c64564fe8efb96b3c86847e073ffdd9e0a9d4a96c",
+        "affectsGlobalScope": false
+      },
       "../node_modules/@types/node/globals.d.ts": {
         "version": "86dd4bc57259052b7a32fb8ca1767d43f146c199b0ca145e0b7dcad4b8628310",
         "signature": "86dd4bc57259052b7a32fb8ca1767d43f146c199b0ca145e0b7dcad4b8628310",
@@ -2142,22 +2147,22 @@
         "affectsGlobalScope": false
       },
       "../src/jogadores/jogadores.service.ts": {
-        "version": "201b7b1aa13a96d7a960cb4e5892e29a3f3414831250818b357d8fe44174d024",
-        "signature": "83fd43e3512c72e259f93d3f2de162fc1cc96c7de240da7e4547635169240af0",
+        "version": "1a5690b0acc270a7ec4b1640c4390d436b4048eb41864c5608e1c493f8bd52cc",
+        "signature": "5cbb506080215a2dba78f4d851e3eaed10f889e62174da599e3cfe481d0d364b",
         "affectsGlobalScope": false
       },
       "../src/jogadores/pipes/jogadores-validacao-parametros.pipe.ts": {
-        "version": "3ef57b8fede7aafff32646f902001f4f995a024004a6dc46b5f043492c522488",
-        "signature": "07791c3ebc216d555bf64107d1727f0322497097afde442f0820c7d058b3eb4b",
+        "version": "73437d49cbbd15453f381208dc18a8f3894e1a7e67df78efd19f3c3a73c6091b",
+        "signature": "3cf4f84e4e2ab05c0ac86075d30017f48916517333d7a0e2528db688570967bd",
         "affectsGlobalScope": false
       },
       "../src/jogadores/jogadores.controller.ts": {
-        "version": "1191a951b5688d3796944e289831af736adca15f67d7716cc064344d0e394624",
-        "signature": "f083237b500ae5365bf9c74e75f1f72f04d44ff0f40951736dd79e303f8c975a",
+        "version": "68021bee6e7d9769943ce61c068ff9cc59303b3bfe97028a3573c554b7c0bc9e",
+        "signature": "77dc58041ba013dca5981d0245d8fbc17da1328873c59f19f74d53f5c4d5f0f8",
         "affectsGlobalScope": false
       },
       "../src/jogadores/interfaces/jogador.schema.ts": {
-        "version": "937eadb05d3e606be6bcea19ecff688680f654d81f804e0a353103ad10af3e45",
+        "version": "5a3da56bdfce7f7151963882236fe23014db5c79957f7ccfb2fb117773e2bcb1",
         "signature": "705474ddf36838747ca722299711c296c6805d76032415fdc47e6099f9e74f21",
         "affectsGlobalScope": false
       },
@@ -7216,6 +7221,14 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/jogadores/jogadores.module.ts"
       ],
+      "../src/jogadores/dto/atualizar-jogador.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-validator/types/index.d.ts"
+      ],
       "../src/jogadores/dto/criar-jogador.dto.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -7247,7 +7260,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/index.d.ts",
+        "../src/jogadores/dto/atualizar-jogador.dto.ts",
         "../src/jogadores/dto/criar-jogador.dto.ts",
         "../src/jogadores/interfaces/jogador.interface.ts",
         "../src/jogadores/jogadores.service.ts",
@@ -7275,6 +7288,7 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/uuid/index.d.ts",
+        "../src/jogadores/dto/atualizar-jogador.dto.ts",
         "../src/jogadores/dto/criar-jogador.dto.ts",
         "../src/jogadores/interfaces/jogador.interface.ts"
       ],
@@ -11888,12 +11902,14 @@
         "../node_modules/@types/mongoose/index.d.ts"
       ],
       "../src/jogadores/jogadores.controller.ts": [
+        "../src/jogadores/dto/atualizar-jogador.dto.ts",
         "../src/jogadores/dto/criar-jogador.dto.ts",
         "../src/jogadores/interfaces/jogador.interface.ts",
         "../src/jogadores/jogadores.service.ts"
       ],
       "../src/jogadores/jogadores.service.ts": [
         "../node_modules/@types/mongoose/index.d.ts",
+        "../src/jogadores/dto/atualizar-jogador.dto.ts",
         "../src/jogadores/dto/criar-jogador.dto.ts",
         "../src/jogadores/interfaces/jogador.interface.ts"
       ],
@@ -12415,6 +12431,7 @@
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.module.ts",
+      "../src/jogadores/dto/atualizar-jogador.dto.ts",
       "../src/jogadores/dto/criar-jogador.dto.ts",
       "../src/jogadores/interfaces/jogador.interface.ts",
       "../src/jogadores/interfaces/jogador.schema.ts",

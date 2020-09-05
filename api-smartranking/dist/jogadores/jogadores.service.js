@@ -31,12 +31,12 @@ let JogadoresService = JogadoresService_1 = class JogadoresService {
         const jogadorCriado = new this.JogadorModel(criarJogadorDto);
         return await jogadorCriado.save();
     }
-    async atualizarJogador(_id, criarJogadorDto) {
+    async atualizarJogador(_id, atualizarJogadorDto) {
         const jogadorEncontrado = await this.JogadorModel.findOne({ _id }).exec();
         if (!jogadorEncontrado) {
             throw new common_1.NotFoundException(`Jogador com o ${_id} não foi encontrado!`);
         }
-        await this.JogadorModel.findOneAndUpdate({ _id }, { $set: criarJogadorDto }).exec();
+        await this.JogadorModel.findOneAndUpdate({ _id }, { $set: atualizarJogadorDto }).exec();
     }
     async consultarJogadorPeloId(_id) {
         const jogadorEncontrado = await this.JogadorModel.findOne({ _id }).exec();

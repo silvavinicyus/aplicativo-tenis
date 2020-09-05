@@ -15,6 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.JogadoresController = void 0;
 const common_1 = require("@nestjs/common");
 const criar_jogador_dto_1 = require("./dto/criar-jogador.dto");
+const atualizar_jogador_dto_1 = require("./dto/atualizar-jogador.dto");
 const jogadores_service_1 = require("./jogadores.service");
 const jogadores_validacao_parametros_pipe_1 = require("./pipes/jogadores-validacao-parametros.pipe");
 let JogadoresController = class JogadoresController {
@@ -24,9 +25,9 @@ let JogadoresController = class JogadoresController {
     async criarJogador(criarJogadorDto) {
         return await this.jogadoresService.criarJogador(criarJogadorDto);
     }
-    async atualizarJogador(criarJogadorDto, _id) {
+    async atualizarJogador(atualizarJogadorDto, _id) {
         console.log(`O id do jogador: ${_id}`);
-        await this.jogadoresService.atualizarJogador(_id, criarJogadorDto);
+        await this.jogadoresService.atualizarJogador(_id, atualizarJogadorDto);
     }
     async consultarTodosJogadores() {
         return this.jogadoresService.consultarTodosJogadores();
@@ -53,7 +54,7 @@ __decorate([
     __param(0, common_1.Body()),
     __param(1, common_1.Param('_id', jogadores_validacao_parametros_pipe_1.JogadoresValidacaoParametrosPipe)),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [criar_jogador_dto_1.CriarJogadorDto, String]),
+    __metadata("design:paramtypes", [atualizar_jogador_dto_1.AtualizarJogadorDto, String]),
     __metadata("design:returntype", Promise)
 ], JogadoresController.prototype, "atualizarJogador", null);
 __decorate([
