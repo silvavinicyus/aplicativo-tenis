@@ -2151,13 +2151,13 @@
         "signature": "5cbb506080215a2dba78f4d851e3eaed10f889e62174da599e3cfe481d0d364b",
         "affectsGlobalScope": false
       },
-      "../src/jogadores/pipes/jogadores-validacao-parametros.pipe.ts": {
-        "version": "73437d49cbbd15453f381208dc18a8f3894e1a7e67df78efd19f3c3a73c6091b",
-        "signature": "3cf4f84e4e2ab05c0ac86075d30017f48916517333d7a0e2528db688570967bd",
+      "../src/common/pipes/validacao-parametros.pipe.ts": {
+        "version": "d2490e4bd9a35a342fe71c23148e73b08777eff9da3ec8ab9821d60a6903b838",
+        "signature": "f590d7919708725457f83359f8582cba1ee9088814ccfe15a70f1847dcca27ce",
         "affectsGlobalScope": false
       },
       "../src/jogadores/jogadores.controller.ts": {
-        "version": "68021bee6e7d9769943ce61c068ff9cc59303b3bfe97028a3573c554b7c0bc9e",
+        "version": "1db8f5d49a6335e2aca54d52bfda1801d9485e08ee6afbfe6b20ebcd20d8748a",
         "signature": "77dc58041ba013dca5981d0245d8fbc17da1328873c59f19f74d53f5c4d5f0f8",
         "affectsGlobalScope": false
       },
@@ -2167,12 +2167,47 @@
         "affectsGlobalScope": false
       },
       "../src/jogadores/jogadores.module.ts": {
-        "version": "257591cf647ebbf41975e683d2ef09d6219884e4aab6405162b0df594fbc2f5a",
+        "version": "f34635ea3eb940676117d775a7bfeea397079765583c2facf624264dbe0f605a",
         "signature": "34d74a4e879d2873eefc2aa0dbc873495f5d2ad11565c3c1d54ab78cca13422f",
         "affectsGlobalScope": false
       },
+      "../src/categorias/interfaces/categoria.interface.ts": {
+        "version": "71be555d1a817128fe96d87d3f3f41a2f2d950ac588e51fec7bdd30e335c39ca",
+        "signature": "f8763fbd890fd098f2e6fdf5e9c9617b4af1270b8ceb8238cf578657ff2f015d",
+        "affectsGlobalScope": false
+      },
+      "../src/categorias/dto/criar-categoria.dto.ts": {
+        "version": "3458d39ce5c1da6c5c5ba1bf4e6215251b8c2fd1d3a17a8f980916f31896a5d5",
+        "signature": "f1af94171c142baa3060b0183aab7e8db54cc643ca968a07f6e5eee14665aca3",
+        "affectsGlobalScope": false
+      },
+      "../src/categorias/dto/atualizar-categoria.dto.ts": {
+        "version": "5580043d7966f3843a1a6b23ba1db8606519387c8739af9bbe983c98e2d5ed95",
+        "signature": "a937abdebb667d846d8052c1f1e053a82432a99af647918ff23f85a239574e0b",
+        "affectsGlobalScope": false
+      },
+      "../src/categorias/categorias.service.ts": {
+        "version": "c30609798e71ce4bf3571cab6ae57f7e13f8387bded51a84c88644a639997067",
+        "signature": "d389ce2d6b0ce1b901e6e57bb7bc25e56b25252e09652dbaddc5709a611589f8",
+        "affectsGlobalScope": false
+      },
+      "../src/categorias/categorias.controller.ts": {
+        "version": "bb7f9fa94266fc3059b9cdc3b1de53e89cb5e1fad50d0fd7e7db1fd1f83e209d",
+        "signature": "80be3067c93ae316888c5aa98bd4dc8b112e669347aaa997ef99b32b8050fd4a",
+        "affectsGlobalScope": false
+      },
+      "../src/categorias/interfaces/categoria.schema.ts": {
+        "version": "2d3b1b9d1522b3daaa0c7f93a38eb293685d41b6b446fe51456a3b627692fa15",
+        "signature": "58698cb1c8cc1f065e5abda85ce979e6183d7c10a6e79d75e70e591a362c2be7",
+        "affectsGlobalScope": false
+      },
+      "../src/categorias/categorias.module.ts": {
+        "version": "f3dfe43793a5f8f67c84af8b8d67c7b093cc08a5178cbd64529c68c488887fb4",
+        "signature": "b91ce684b8d25a894c5ba07440477675e33c8bdfd97620a07aa6653ac906c33f",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "f91f40c7dfc95c37fde78209857ef6151f62cafe7314619d763c04222f462a73",
+        "version": "85e00663ce3da27f8d1ea4fd951ba2ff21f2d02e84f84a2814c272917c41c85c",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -2356,8 +2391,13 @@
         "signature": "7b5ed961a0e03965299591d73de8b8c41e8a68105ff4fc07a240b0dfb94a5a3d",
         "affectsGlobalScope": false
       },
+      "../src/common/filters/http-exception.filter.ts": {
+        "version": "9ef36e7bcea7127d4828bfb09564650da9a85b96e9f821d2792f90467d3b3202",
+        "signature": "c8d276d6b8823324f03a6e94b3d852ed617adcf1027eb4e5d284134dd40d1077",
+        "affectsGlobalScope": false
+      },
       "../src/main.ts": {
-        "version": "cde7a556921e117aecafdca19a3574a92f38212e316925b87ad6f853ac81831e",
+        "version": "61758c08156e08ccaa5b06855821d2525eb124a93eab4a0dfc0626fb3d679d45",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
@@ -7219,7 +7259,98 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
+        "../src/categorias/categorias.module.ts",
         "../src/jogadores/jogadores.module.ts"
+      ],
+      "../src/categorias/categorias.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/categorias/categorias.service.ts",
+        "../src/categorias/dto/atualizar-categoria.dto.ts",
+        "../src/categorias/dto/criar-categoria.dto.ts",
+        "../src/categorias/interfaces/categoria.interface.ts"
+      ],
+      "../src/categorias/categorias.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/categorias/categorias.controller.ts",
+        "../src/categorias/categorias.service.ts",
+        "../src/categorias/interfaces/categoria.schema.ts",
+        "../src/jogadores/jogadores.module.ts"
+      ],
+      "../src/categorias/categorias.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/categorias/dto/atualizar-categoria.dto.ts",
+        "../src/categorias/dto/criar-categoria.dto.ts",
+        "../src/categorias/interfaces/categoria.interface.ts",
+        "../src/jogadores/jogadores.service.ts"
+      ],
+      "../src/categorias/dto/atualizar-categoria.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-validator/types/index.d.ts",
+        "../src/categorias/interfaces/categoria.interface.ts"
+      ],
+      "../src/categorias/dto/criar-categoria.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-validator/types/index.d.ts",
+        "../src/categorias/interfaces/categoria.interface.ts"
+      ],
+      "../src/categorias/interfaces/categoria.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/jogadores/interfaces/jogador.interface.ts"
+      ],
+      "../src/categorias/interfaces/categoria.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/common/filters/http-exception.filter.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/common/pipes/validacao-parametros.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
       ],
       "../src/jogadores/dto/atualizar-jogador.dto.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -7260,11 +7391,11 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
+        "../src/common/pipes/validacao-parametros.pipe.ts",
         "../src/jogadores/dto/atualizar-jogador.dto.ts",
         "../src/jogadores/dto/criar-jogador.dto.ts",
         "../src/jogadores/interfaces/jogador.interface.ts",
-        "../src/jogadores/jogadores.service.ts",
-        "../src/jogadores/pipes/jogadores-validacao-parametros.pipe.ts"
+        "../src/jogadores/jogadores.service.ts"
       ],
       "../src/jogadores/jogadores.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -7292,14 +7423,6 @@
         "../src/jogadores/dto/criar-jogador.dto.ts",
         "../src/jogadores/interfaces/jogador.interface.ts"
       ],
-      "../src/jogadores/pipes/jogadores-validacao-parametros.pipe.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -7307,7 +7430,8 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/app.module.ts"
+        "../src/app.module.ts",
+        "../src/common/filters/http-exception.filter.ts"
       ]
     },
     "exportedModulesMap": {
@@ -11895,6 +12019,38 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../src/categorias/categorias.controller.ts": [
+        "../src/categorias/categorias.service.ts",
+        "../src/categorias/dto/atualizar-categoria.dto.ts",
+        "../src/categorias/dto/criar-categoria.dto.ts",
+        "../src/categorias/interfaces/categoria.interface.ts"
+      ],
+      "../src/categorias/categorias.service.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/categorias/dto/atualizar-categoria.dto.ts",
+        "../src/categorias/dto/criar-categoria.dto.ts",
+        "../src/categorias/interfaces/categoria.interface.ts",
+        "../src/jogadores/jogadores.service.ts"
+      ],
+      "../src/categorias/dto/atualizar-categoria.dto.ts": [
+        "../src/categorias/interfaces/categoria.interface.ts"
+      ],
+      "../src/categorias/dto/criar-categoria.dto.ts": [
+        "../src/categorias/interfaces/categoria.interface.ts"
+      ],
+      "../src/categorias/interfaces/categoria.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/jogadores/interfaces/jogador.interface.ts"
+      ],
+      "../src/categorias/interfaces/categoria.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/common/filters/http-exception.filter.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/common/pipes/validacao-parametros.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
       "../src/jogadores/interfaces/jogador.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
       ],
@@ -11912,9 +12068,6 @@
         "../src/jogadores/dto/atualizar-jogador.dto.ts",
         "../src/jogadores/dto/criar-jogador.dto.ts",
         "../src/jogadores/interfaces/jogador.interface.ts"
-      ],
-      "../src/jogadores/pipes/jogadores-validacao-parametros.pipe.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -12431,6 +12584,15 @@
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.module.ts",
+      "../src/categorias/categorias.controller.ts",
+      "../src/categorias/categorias.module.ts",
+      "../src/categorias/categorias.service.ts",
+      "../src/categorias/dto/atualizar-categoria.dto.ts",
+      "../src/categorias/dto/criar-categoria.dto.ts",
+      "../src/categorias/interfaces/categoria.interface.ts",
+      "../src/categorias/interfaces/categoria.schema.ts",
+      "../src/common/filters/http-exception.filter.ts",
+      "../src/common/pipes/validacao-parametros.pipe.ts",
       "../src/jogadores/dto/atualizar-jogador.dto.ts",
       "../src/jogadores/dto/criar-jogador.dto.ts",
       "../src/jogadores/interfaces/jogador.interface.ts",
@@ -12438,7 +12600,6 @@
       "../src/jogadores/jogadores.controller.ts",
       "../src/jogadores/jogadores.module.ts",
       "../src/jogadores/jogadores.service.ts",
-      "../src/jogadores/pipes/jogadores-validacao-parametros.pipe.ts",
       "../src/main.ts"
     ]
   },

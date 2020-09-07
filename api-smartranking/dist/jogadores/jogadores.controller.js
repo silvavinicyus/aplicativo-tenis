@@ -17,7 +17,7 @@ const common_1 = require("@nestjs/common");
 const criar_jogador_dto_1 = require("./dto/criar-jogador.dto");
 const atualizar_jogador_dto_1 = require("./dto/atualizar-jogador.dto");
 const jogadores_service_1 = require("./jogadores.service");
-const jogadores_validacao_parametros_pipe_1 = require("./pipes/jogadores-validacao-parametros.pipe");
+const validacao_parametros_pipe_1 = require("../common/pipes/validacao-parametros.pipe");
 let JogadoresController = class JogadoresController {
     constructor(jogadoresService) {
         this.jogadoresService = jogadoresService;
@@ -36,7 +36,6 @@ let JogadoresController = class JogadoresController {
         return this.jogadoresService.consultarJogadorPeloId(_id);
     }
     async deletarJogador(_id) {
-        console.log(`O id do jogador: ${_id}`);
         this.jogadoresService.deletarJogador(_id);
     }
 };
@@ -52,7 +51,7 @@ __decorate([
     common_1.Put('/:_id'),
     common_1.UsePipes(common_1.ValidationPipe),
     __param(0, common_1.Body()),
-    __param(1, common_1.Param('_id', jogadores_validacao_parametros_pipe_1.JogadoresValidacaoParametrosPipe)),
+    __param(1, common_1.Param('_id', validacao_parametros_pipe_1.ValidacaoParametrosPipe)),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [atualizar_jogador_dto_1.AtualizarJogadorDto, String]),
     __metadata("design:returntype", Promise)
@@ -65,14 +64,14 @@ __decorate([
 ], JogadoresController.prototype, "consultarTodosJogadores", null);
 __decorate([
     common_1.Get('/:_id'),
-    __param(0, common_1.Param('_id', jogadores_validacao_parametros_pipe_1.JogadoresValidacaoParametrosPipe)),
+    __param(0, common_1.Param('_id', validacao_parametros_pipe_1.ValidacaoParametrosPipe)),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", Promise)
 ], JogadoresController.prototype, "consultarJogadorPorId", null);
 __decorate([
     common_1.Delete('/:_id'),
-    __param(0, common_1.Param('_id', jogadores_validacao_parametros_pipe_1.JogadoresValidacaoParametrosPipe)),
+    __param(0, common_1.Param('_id', validacao_parametros_pipe_1.ValidacaoParametrosPipe)),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", Promise)

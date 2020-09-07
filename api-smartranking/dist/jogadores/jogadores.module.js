@@ -18,7 +18,8 @@ JogadoresModule = __decorate([
     common_1.Module({
         imports: [mongoose_1.MongooseModule.forFeature([{ name: 'Jogador', schema: jogador_schema_1.JogadorSchema }])],
         controllers: [jogadores_controller_1.JogadoresController],
-        providers: [jogadores_service_1.JogadoresService]
+        providers: [jogadores_service_1.JogadoresService],
+        exports: [jogadores_service_1.JogadoresService],
     })
 ], JogadoresModule);
 exports.JogadoresModule = JogadoresModule;
