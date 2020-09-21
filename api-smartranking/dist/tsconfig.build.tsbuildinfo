@@ -2051,11 +2051,6 @@
         "signature": "3c09e3e8c1ee3407eebe7f87726d3192107d6b415f6e708b8211e06694f0b802",
         "affectsGlobalScope": false
       },
-      "../node_modules/@types/uuid/index.d.ts": {
-        "version": "96b49a9de749afcf92b5bce1d8cc42cfae6816cdf5ea36584fd9256b8b2e5292",
-        "signature": "96b49a9de749afcf92b5bce1d8cc42cfae6816cdf5ea36584fd9256b8b2e5292",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts": {
         "version": "8777e8b9e2aaad9e400a18387113faf9593806889cf4ef4267ce5271fce8b8be",
         "signature": "8777e8b9e2aaad9e400a18387113faf9593806889cf4ef4267ce5271fce8b8be",
@@ -2147,8 +2142,8 @@
         "affectsGlobalScope": false
       },
       "../src/jogadores/jogadores.service.ts": {
-        "version": "1a5690b0acc270a7ec4b1640c4390d436b4048eb41864c5608e1c493f8bd52cc",
-        "signature": "5cbb506080215a2dba78f4d851e3eaed10f889e62174da599e3cfe481d0d364b",
+        "version": "4f214a9d3ffe6939c480c80854d2a7058191a2f18919f2b8dcde0a61fea8929b",
+        "signature": "8b7f71a0b7bdbc46ee1bc6a0e8010480e446f03209cfc3d07136d54ed30ca5bb",
         "affectsGlobalScope": false
       },
       "../src/common/pipes/validacao-parametros.pipe.ts": {
@@ -2187,13 +2182,13 @@
         "affectsGlobalScope": false
       },
       "../src/categorias/categorias.service.ts": {
-        "version": "c30609798e71ce4bf3571cab6ae57f7e13f8387bded51a84c88644a639997067",
-        "signature": "d389ce2d6b0ce1b901e6e57bb7bc25e56b25252e09652dbaddc5709a611589f8",
+        "version": "275d5176668d6c862d835c1af6f4bad77cb315d0253e3829c0e53df1d969653e",
+        "signature": "e6bd3fd5a54c85c8b07c0a3fecc15a61cad477795a67b320381e9c12e1bcaecd",
         "affectsGlobalScope": false
       },
       "../src/categorias/categorias.controller.ts": {
-        "version": "bb7f9fa94266fc3059b9cdc3b1de53e89cb5e1fad50d0fd7e7db1fd1f83e209d",
-        "signature": "80be3067c93ae316888c5aa98bd4dc8b112e669347aaa997ef99b32b8050fd4a",
+        "version": "675809f265b5d9772415fcf122f9c87d3cae66f5cda6e7901e0e43276c79f9a7",
+        "signature": "ddbd36ad97b48a09c38bf445eeeb7539dfc37f1306b045f64d99077422999c56",
         "affectsGlobalScope": false
       },
       "../src/categorias/interfaces/categoria.schema.ts": {
@@ -2202,12 +2197,67 @@
         "affectsGlobalScope": false
       },
       "../src/categorias/categorias.module.ts": {
-        "version": "f3dfe43793a5f8f67c84af8b8d67c7b093cc08a5178cbd64529c68c488887fb4",
+        "version": "08085347468fde620c6635c3343d30d2004164b1f8d348252725a6bbf82fdf12",
         "signature": "b91ce684b8d25a894c5ba07440477675e33c8bdfd97620a07aa6653ac906c33f",
         "affectsGlobalScope": false
       },
+      "../src/desafios/interfaces/desafio.interface.ts": {
+        "version": "c48a43e85b72b0f177ba172d64bb3b87ed96f0058c5fb857b67559c0e2cef01f",
+        "signature": "c67f864af6a7e55e6b4f316f5a9e431c3ee42e47076dc3dd75aeb07125d9d74a",
+        "affectsGlobalScope": false
+      },
+      "../src/desafios/dto/criar-desafio.dto.ts": {
+        "version": "27ef150230aab9026ecc70019e384b1db95187ea79d5308f7944da21a2105d21",
+        "signature": "f7c60049f8e789eb8b914980aeb66ed86e3f9e1a4b3685b10c92d31eab25cc0a",
+        "affectsGlobalScope": false
+      },
+      "../src/desafios/interfaces/desafio-status.enum.ts": {
+        "version": "1bb18528fc9e1d3bd5de0e86cd02b9a7e073ed279652c1031924d43db67053c8",
+        "signature": "8336bc76b926e58a2c31ed40e0d3b3eea347de23c37434c4a2a28bdec7707f0b",
+        "affectsGlobalScope": false
+      },
+      "../src/desafios/dto/atualizar-desafio.dto.ts": {
+        "version": "654fef0be4a957a4c23471c3baafbaaffc29d54ebed8639391cf4f71ec0f90d4",
+        "signature": "ebfa231afea88ac92e46d1f441680d3f6b63ac2ffd6011eff645bd4e5c019c44",
+        "affectsGlobalScope": false
+      },
+      "../src/desafios/dto/atribuir-desafio-partida.dto.ts": {
+        "version": "bc40acbe46059bad36ecd0f80bbd002a265d5b4abe10e8973fd67a1ff606ef9c",
+        "signature": "53aedafe3b72fb01abbc16110ad537811f5a8746d9c954bc8e7a28a4b4121c45",
+        "affectsGlobalScope": false
+      },
+      "../src/desafios/desafios.service.ts": {
+        "version": "f0f7b616fc53f48cb74fdb2d94f59850e5c1925ddc3ee49baa3bd2f57afb52a1",
+        "signature": "11c92f85103ecb32555ed88bc9f67cd5e118ee341e0e804b4ff4ef191c9e438d",
+        "affectsGlobalScope": false
+      },
+      "../src/common/pipes/desafio-status-validation.pipe.ts": {
+        "version": "d79675011174db53c902d76fa9309a253cf0a60741a133a2513ec5f7bd174501",
+        "signature": "a5bcafa370bb40ad6c7004dfafdb688f2659aadc933c377e48313ef45a2e52b4",
+        "affectsGlobalScope": false
+      },
+      "../src/desafios/desafios.controller.ts": {
+        "version": "a56df4ac783866aa6aa40470d901f908fb45943ad2fe045f1232b741ba13e31d",
+        "signature": "f2c161c1a78d4289de2a0d77d8dcfd2d30642a4b37e6e43533c47e3d24fb46fb",
+        "affectsGlobalScope": false
+      },
+      "../src/desafios/interfaces/desafio.schema.ts": {
+        "version": "a134c0f46af543142c82f776cd75198cc9abcdca7ee1e0a25e348802e7097192",
+        "signature": "54ef3cfe91a1c5405fe0cf7bce798909d9ab049570be4991c1b17fb30ae72e0b",
+        "affectsGlobalScope": false
+      },
+      "../src/desafios/interfaces/partida.schema.ts": {
+        "version": "d4682c7616072e44405274d1c2333b3fa83205690bbb0b603b9e8c4976661ead",
+        "signature": "e9a420b102a0f682f8256fa83a109dba1226afa2f7a366c2d16a5ac45a49a9f0",
+        "affectsGlobalScope": false
+      },
+      "../src/desafios/desafios.module.ts": {
+        "version": "bdb730bebeb79868e07806d80f8354f5dfec68f6cd460ae1f7f97bddbfba1dc5",
+        "signature": "6942d4ba31d3cf4af8e06131ff29ff7744cd48f7077d672e5f3df28a44fbb751",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "85e00663ce3da27f8d1ea4fd951ba2ff21f2d02e84f84a2814c272917c41c85c",
+        "version": "8b4709d2c3071e8f7dff455052839e8d0ddd382bc87350b40cb0278957524f9e",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -2396,8 +2446,18 @@
         "signature": "c8d276d6b8823324f03a6e94b3d852ed617adcf1027eb4e5d284134dd40d1077",
         "affectsGlobalScope": false
       },
+      "../node_modules/moment/ts3.1-typings/moment.d.ts": {
+        "version": "ee08b4d535febfed2ab0ed4a943c26eee9646a0b6fd674552d925544e0e0afd4",
+        "signature": "ee08b4d535febfed2ab0ed4a943c26eee9646a0b6fd674552d925544e0e0afd4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/moment-timezone/index.d.ts": {
+        "version": "8621a7b709bc463d5ab5a96d95bae465323fbf80b8a3d9eff5d2d6b60c795dd1",
+        "signature": "8621a7b709bc463d5ab5a96d95bae465323fbf80b8a3d9eff5d2d6b60c795dd1",
+        "affectsGlobalScope": false
+      },
       "../src/main.ts": {
-        "version": "61758c08156e08ccaa5b06855821d2525eb124a93eab4a0dfc0626fb3d679d45",
+        "version": "817e728c2d0a6273e2d3f87ecbaaf14da0a7fae0083a661095a58cd959636e08",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
@@ -2614,6 +2674,11 @@
       "../node_modules/@types/uglify-js/index.d.ts": {
         "version": "dbef1822091af2c0ee24d2be8222502dc1160473ea0b4709ba5f3856cec93537",
         "signature": "dbef1822091af2c0ee24d2be8222502dc1160473ea0b4709ba5f3856cec93537",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/uuid/index.d.ts": {
+        "version": "96b49a9de749afcf92b5bce1d8cc42cfae6816cdf5ea36584fd9256b8b2e5292",
+        "signature": "96b49a9de749afcf92b5bce1d8cc42cfae6816cdf5ea36584fd9256b8b2e5292",
         "affectsGlobalScope": false
       },
       "../node_modules/anymatch/index.d.ts": {
@@ -6363,6 +6428,21 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../node_modules/moment-timezone/index.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/moment/ts3.1-typings/moment.d.ts"
+      ],
+      "../node_modules/moment/ts3.1-typings/moment.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../node_modules/pretty-format/build/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -7260,6 +7340,7 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/categorias/categorias.module.ts",
+        "../src/desafios/desafios.module.ts",
         "../src/jogadores/jogadores.module.ts"
       ],
       "../src/categorias/categorias.controller.ts": [
@@ -7272,7 +7353,8 @@
         "../src/categorias/categorias.service.ts",
         "../src/categorias/dto/atualizar-categoria.dto.ts",
         "../src/categorias/dto/criar-categoria.dto.ts",
-        "../src/categorias/interfaces/categoria.interface.ts"
+        "../src/categorias/interfaces/categoria.interface.ts",
+        "../src/common/pipes/validacao-parametros.pipe.ts"
       ],
       "../src/categorias/categorias.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -7344,9 +7426,125 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../src/common/pipes/desafio-status-validation.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/desafios/interfaces/desafio-status.enum.ts"
+      ],
       "../src/common/pipes/validacao-parametros.pipe.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/desafios/desafios.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/common/pipes/desafio-status-validation.pipe.ts",
+        "../src/desafios/desafios.service.ts",
+        "../src/desafios/dto/atribuir-desafio-partida.dto.ts",
+        "../src/desafios/dto/atualizar-desafio.dto.ts",
+        "../src/desafios/dto/criar-desafio.dto.ts",
+        "../src/desafios/interfaces/desafio.interface.ts"
+      ],
+      "../src/desafios/desafios.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/categorias/categorias.module.ts",
+        "../src/desafios/desafios.controller.ts",
+        "../src/desafios/desafios.service.ts",
+        "../src/desafios/interfaces/desafio.schema.ts",
+        "../src/desafios/interfaces/partida.schema.ts",
+        "../src/jogadores/jogadores.module.ts"
+      ],
+      "../src/desafios/desafios.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/categorias/categorias.service.ts",
+        "../src/desafios/desafios.controller.ts",
+        "../src/desafios/dto/atribuir-desafio-partida.dto.ts",
+        "../src/desafios/dto/atualizar-desafio.dto.ts",
+        "../src/desafios/dto/criar-desafio.dto.ts",
+        "../src/desafios/interfaces/desafio-status.enum.ts",
+        "../src/desafios/interfaces/desafio.interface.ts",
+        "../src/jogadores/jogadores.service.ts"
+      ],
+      "../src/desafios/dto/atribuir-desafio-partida.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-validator/types/index.d.ts",
+        "../src/desafios/interfaces/desafio.interface.ts",
+        "../src/jogadores/interfaces/jogador.interface.ts"
+      ],
+      "../src/desafios/dto/atualizar-desafio.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-validator/types/index.d.ts",
+        "../src/desafios/interfaces/desafio-status.enum.ts"
+      ],
+      "../src/desafios/dto/criar-desafio.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-validator/types/index.d.ts",
+        "../src/jogadores/interfaces/jogador.interface.ts"
+      ],
+      "../src/desafios/interfaces/desafio-status.enum.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/desafios/interfaces/desafio.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/jogadores/interfaces/jogador.interface.ts"
+      ],
+      "../src/desafios/interfaces/desafio.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/desafios/interfaces/partida.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
@@ -7418,7 +7616,6 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/uuid/index.d.ts",
         "../src/jogadores/dto/atualizar-jogador.dto.ts",
         "../src/jogadores/dto/criar-jogador.dto.ts",
         "../src/jogadores/interfaces/jogador.interface.ts"
@@ -7430,6 +7627,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
+        "../node_modules/moment-timezone/index.d.ts",
         "../src/app.module.ts",
         "../src/common/filters/http-exception.filter.ts"
       ]
@@ -11131,6 +11329,21 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../node_modules/moment-timezone/index.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/moment/ts3.1-typings/moment.d.ts"
+      ],
+      "../node_modules/moment/ts3.1-typings/moment.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../node_modules/pretty-format/build/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -12048,8 +12261,48 @@
       "../src/common/filters/http-exception.filter.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
       ],
+      "../src/common/pipes/desafio-status-validation.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/desafios/interfaces/desafio-status.enum.ts"
+      ],
       "../src/common/pipes/validacao-parametros.pipe.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/desafios/desafios.controller.ts": [
+        "../src/desafios/desafios.service.ts",
+        "../src/desafios/dto/atribuir-desafio-partida.dto.ts",
+        "../src/desafios/dto/atualizar-desafio.dto.ts",
+        "../src/desafios/dto/criar-desafio.dto.ts",
+        "../src/desafios/interfaces/desafio.interface.ts"
+      ],
+      "../src/desafios/desafios.service.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/categorias/categorias.service.ts",
+        "../src/desafios/dto/atribuir-desafio-partida.dto.ts",
+        "../src/desafios/dto/atualizar-desafio.dto.ts",
+        "../src/desafios/dto/criar-desafio.dto.ts",
+        "../src/desafios/interfaces/desafio.interface.ts",
+        "../src/jogadores/jogadores.service.ts"
+      ],
+      "../src/desafios/dto/atribuir-desafio-partida.dto.ts": [
+        "../src/desafios/interfaces/desafio.interface.ts",
+        "../src/jogadores/interfaces/jogador.interface.ts"
+      ],
+      "../src/desafios/dto/atualizar-desafio.dto.ts": [
+        "../src/desafios/interfaces/desafio-status.enum.ts"
+      ],
+      "../src/desafios/dto/criar-desafio.dto.ts": [
+        "../src/jogadores/interfaces/jogador.interface.ts"
+      ],
+      "../src/desafios/interfaces/desafio.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/jogadores/interfaces/jogador.interface.ts"
+      ],
+      "../src/desafios/interfaces/desafio.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/desafios/interfaces/partida.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
       ],
       "../src/jogadores/interfaces/jogador.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -12483,6 +12736,8 @@
       "../node_modules/jest-diff/build/index.d.ts",
       "../node_modules/jest-diff/build/printdiffs.d.ts",
       "../node_modules/jest-diff/build/types.d.ts",
+      "../node_modules/moment-timezone/index.d.ts",
+      "../node_modules/moment/ts3.1-typings/moment.d.ts",
       "../node_modules/pretty-format/build/index.d.ts",
       "../node_modules/pretty-format/build/types.d.ts",
       "../node_modules/reflect-metadata/index.d.ts",
@@ -12592,7 +12847,18 @@
       "../src/categorias/interfaces/categoria.interface.ts",
       "../src/categorias/interfaces/categoria.schema.ts",
       "../src/common/filters/http-exception.filter.ts",
+      "../src/common/pipes/desafio-status-validation.pipe.ts",
       "../src/common/pipes/validacao-parametros.pipe.ts",
+      "../src/desafios/desafios.controller.ts",
+      "../src/desafios/desafios.module.ts",
+      "../src/desafios/desafios.service.ts",
+      "../src/desafios/dto/atribuir-desafio-partida.dto.ts",
+      "../src/desafios/dto/atualizar-desafio.dto.ts",
+      "../src/desafios/dto/criar-desafio.dto.ts",
+      "../src/desafios/interfaces/desafio-status.enum.ts",
+      "../src/desafios/interfaces/desafio.interface.ts",
+      "../src/desafios/interfaces/desafio.schema.ts",
+      "../src/desafios/interfaces/partida.schema.ts",
       "../src/jogadores/dto/atualizar-jogador.dto.ts",
       "../src/jogadores/dto/criar-jogador.dto.ts",
       "../src/jogadores/interfaces/jogador.interface.ts",

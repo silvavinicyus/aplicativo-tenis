@@ -3,6 +3,7 @@ import { CriarCategoriaDto } from './dto/criar-categoria.dto';
 import { Categoria } from './interfaces/categoria.interface';
 import { CategoriasService } from './categorias.service';
 import { AtualizarCategoriaDto } from './dto/atualizar-categoria.dto';
+import { ValidacaoParametrosPipe } from 'src/common/pipes/validacao-parametros.pipe';
 
 @Controller('api/v1/categorias')
 export class CategoriasController {
@@ -21,20 +22,20 @@ export class CategoriasController {
         return await this.categoriaService.consultarTodasCategorias();
     }
 
-    @Get('/:_id')
+    @Get('/:categoria')
     async consultarCategoriaPeloId(
-        @Param('_id') _id: string
+        @Param('categoria') categoria: string
     ): Promise<Categoria>{
-        return await this.categoriaService.consultarCategoriaPeloId(_id);
+        return await this.categoriaService.consultarCategoriaPeloId(categoria);
     }
 
-    @Put('/:_id')
+    @Put('/:categoria')
     @UsePipes(ValidationPipe)
     async atualizarCategoria(
         @Body() atualizarCategoriaDto: AtualizarCategoriaDto,
-        @Param('_id') _id: string,
+        @Param('categoria') categoria: string,
     ): Promise<void>{
-        await this.categoriaService.atualizarCategoria(_id, atualizarCategoriaDto);
+        await this.categoriaService.atualizarCategoria(categoria, atualizarCategoriaDto);
     }
 
     @Post('/:categoria/jogadores/:idJogador')    
@@ -42,5 +43,12 @@ export class CategoriasController {
         @Param() params: string[]
     ):Promise<void>{
         await this.categoriaService.atualizarCategoriaJogador(params);
+    }
+
+    @Get('/jogador/:_id')
+    async consultarCategoriaDoJogador(
+        @Param('_id', ValidacaoParametrosPipe) _id: any
+    ): Promise<Categoria>{
+        return await this.categoriaService.consultarCategoriaDoJogador(_id);
     }
 }

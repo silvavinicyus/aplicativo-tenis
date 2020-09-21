@@ -8,10 +8,10 @@ import { JogadoresModule } from 'src/jogadores/jogadores.module';
 @Module({
   imports: [
     MongooseModule.forFeature([{name: 'Categoria', schema: CategoriaSchema}]),
-    JogadoresModule
-    
+    JogadoresModule    
   ],
   controllers: [CategoriasController],
-  providers: [CategoriasService]
+  providers: [CategoriasService],
+  exports: [CategoriasService]
 })
 export class CategoriasModule {}

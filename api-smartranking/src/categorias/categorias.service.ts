@@ -30,25 +30,31 @@ export class CategoriasService {
         return await this.categoriaModel.find().populate("jogadores").exec();
     }
 
-    async consultarCategoriaPeloId(_id: string): Promise<Categoria> {
+    async consultarCategoriaPeloId(categoria: string): Promise<Categoria> {
 
-        const categoriaEncontrada = await this.categoriaModel.findOne({_id}).populate("jogadores").exec();        
+        const categoriaEncontrada = await this.categoriaModel.findOne({categoria}).populate("jogadores").exec();        
 
         if(!categoriaEncontrada) {
-            throw new NotFoundException(`Categoria ${_id} não existe!`);
+            throw new NotFoundException(`Categoria ${categoria} não existe!`);
         }
 
         return categoriaEncontrada;
     }
 
-    async atualizarCategoria(_id: string, atualizarCategoriaDto: AtualizarCategoriaDto): Promise<void> {
-        const categoriaEncontrada = await this.categoriaModel.findOne({_id}).exec();
+    async atualizarCategoria(categoria: string, atualizarCategoriaDto: AtualizarCategoriaDto): Promise<void> {
+        const categoriaEncontrada = await this.categoriaModel.findOne({categoria}).exec();
 
         if(!categoriaEncontrada) {
-            throw new NotFoundException(`Categoria ${_id} não existe!`);
+            throw new NotFoundException(`Categoria ${categoria} não existe!`);
         }
 
-        await this.categoriaModel.findOneAndUpdate({_id}, {$set: atualizarCategoriaDto}).exec();
+        await this.categoriaModel.findOneAndUpdate({categoria}, {$set: atualizarCategoriaDto}).exec();
+    }
+
+    async consultarCategoriaDoJogador(_id: any): Promise<Categoria>{        
+        const categoriaJogador = await this.categoriaModel.findOne().where('jogadores').in(_id).exec();
+
+        return categoriaJogador;
     }
 
     async atualizarCategoriaJogador(params: string[]){

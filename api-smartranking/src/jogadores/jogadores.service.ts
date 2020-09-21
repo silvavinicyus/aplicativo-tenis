@@ -1,15 +1,12 @@
 import { Injectable, Logger, NotFoundException, BadRequestException } from '@nestjs/common';
 import { CriarJogadorDto } from './dto/criar-jogador.dto';
 import { Jogador } from './interfaces/jogador.interface';
-import * as uuid from 'uuid';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { AtualizarJogadorDto } from './dto/atualizar-jogador.dto';
 
 @Injectable()
-export class JogadoresService {    
-    private logger = new Logger(JogadoresService.name);    
-
+export class JogadoresService {        
     constructor(@InjectModel('Jogador') private readonly JogadorModel: Model<Jogador>) {}
 
     async criarJogador(criarJogadorDto: CriarJogadorDto): Promise<Jogador>{ 
