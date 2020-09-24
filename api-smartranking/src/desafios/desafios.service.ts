@@ -60,11 +60,11 @@ export class DesafiosService {
             throw new BadRequestException(`O id ${_id} não é um jogador!`);
         }
 
-        return await this.desafioModel.find().where("jogadores").in(_id).populate("solicitante").populate("jogadores").exec();
+        return await this.desafioModel.find().where("jogadores").in(_id).populate("solicitante").populate("jogadores").populate("partida").exec();
     }
 
     async consultarDesafios(): Promise<Array<Desafio>> {
-        return await this.desafioModel.find().populate("solicitante").populate("jogadores").exec();
+        return await this.desafioModel.find().populate("solicitante").populate("jogadores").populate("partida").exec();
     }
 
     async atualizarDesafio(_id: string, atualizarDesafioDto: AtualizarDesafioDto): Promise<void>{

@@ -2227,7 +2227,7 @@
         "affectsGlobalScope": false
       },
       "../src/desafios/desafios.service.ts": {
-        "version": "f0f7b616fc53f48cb74fdb2d94f59850e5c1925ddc3ee49baa3bd2f57afb52a1",
+        "version": "dc2678ef67ab41ec43eb6403714eb6322a5b8a92dcb3cd62fe3b027b3080fae2",
         "signature": "11c92f85103ecb32555ed88bc9f67cd5e118ee341e0e804b4ff4ef191c9e438d",
         "affectsGlobalScope": false
       },
